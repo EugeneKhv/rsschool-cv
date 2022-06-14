@@ -1,0 +1,247 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ a {
+    text-decoration: none;
+    color: #fc842e;
+ }
+ h1 {
+    font-size: 32px;
+ }
+ a h1 {
+    color: #fff;
+ }
+ 
+ h2 {
+    color: #ff6c00;
+ }
+ body {
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 19px;
+    background-color: rgb(10, 10, 10);
+    margin: 0;
+    padding: 0;
+ }
+ header {
+    display: flex;
+    justify-content: space-between;
+ }
+ 
+ /* nav-menu */
+ header {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ 
+ /* Гамбургер иконка */
+ .menu-btn {
+     width: 30px;
+     height: 30px;
+     position: relative;
+     z-index:2;
+     overflow: hidden;
+    visibility: hidden;
+ }
+ 
+ .menu-btn span {
+     width: 30px;
+     height: 2px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #fff;
+     transition: all 0.5s;
+ }
+ 
+ .menu-btn span:nth-of-type(2) {
+     top: calc(50% - 5px);
+ }
+ .menu-btn span:nth-of-type(3) {
+     top: calc(50% + 5px);
+ }
+ 
+ /* Меняем гамбургер иконку, когда меню открыто */
+ .menu-btn.active span:nth-of-type(1) {
+   display: none;
+ }
+ .menu-btn.active span:nth-of-type(2) {
+   top: 50%;
+   transform: translate(-50%, 0%) rotate(45deg);  
+ }
+ .menu-btn.active span:nth-of-type(3) {
+   top: 50%;
+   transform: translate(-50%, 0%) rotate(-45deg); 
+ }
+ 
+ /* Меню, которое будет появляться */
+ .menu__burger {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     padding: 15px;
+   background: #000;
+     transform: translateX(-100%);
+     transition: transform 0.5s; 
+    text-align: left;
+    visibility: hidden;
+ }
+ 
+ .menu__burger.active {
+     transform: translateX(0);
+ }
+ 
+ .menu__burger li {
+     list-style-type: none;
+ }
+ 
+ .nav-list__burger{
+    font-size: 17px;
+    line-height: 2;
+    }
+ 
+ /* _______________________ */
+ 
+ .container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+ }
+ .nav-ul {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+ }
+ .nav-list a:hover,
+ .nav-list a:active {
+    color: #fff;
+    text-shadow:
+         /* белый свет */ 0 0 1px #fff, 0 0 2px #fff, 0 0 5px #fff, 0 0 20px #ff6c00, 0 0 11px #ff6c00,
+       0 0 30px #ff6c00, 0 0 55px #ff6c00, 0 0 80px #ff6c00;
+ }
+ 
+ /* .menu__box .menu__burger{
+    display: none;
+ } */
+ .contacts-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ 
+ .contacts-section__left {
+    width: 70%;
+ }
+ .contacts-section__left ul {
+    padding: 0;
+ }
+ .contacts-list {
+    list-style: none;
+ }
+ .contacts-section__right img {
+    max-width: 100%;
+    border-radius: 5%;
+ }
+ 
+ .photo {
+    width: 250px;
+ }
+ 
+ .about {
+    padding: 10px 10px;
+ }
+ .education,
+ .lang,
+ .work__experience,
+ .code__example,
+ .scills,
+ .contacts {
+    padding: 10px;
+    line-height: 2;
+ }
+ .page-footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .page-footer__contact-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+ }
+ 
+ .contact-links__item {
+    list-style: none;
+ }
+ .contact-links__item:first-child {
+    padding-right: 20px;
+ }
+ 
+ pre {
+    white-space: pre-wrap;
+    word-break: break-all;
+    margin: 0;
+ }
+ .scills {
+    list-style: none;
+ }
+ 
+ .hr-shadow {
+    height: 10px;
+    border: none;
+    border-top: 1px solid #ff6c00;
+    box-shadow: 0 8px 10px -10px #ffffff inset;
+ }
+ 
+ 
+ @media (max-width: 800px) {
+    .menu-btn {
+       visibility: visible;
+    }
+    .menu__burger{
+       visibility: visible;
+    }
+    .nav-ul {
+       display: none;
+    }
+    #hr-shadow {
+       display: none;
+    }
+    .about {
+       padding: 5px 5px;
+    }
+    .education,
+    .lang,
+    .work__experience,
+    .code__example,
+    .scills,
+    .contacts {
+       padding: 0;
+       line-height: 1;
+    }
+ }
+ @media (max-width: 544px) {
+    body {
+       font-size: 12px;
+       line-height: 13px;
+    }
+    .contacts-section__right img {
+       max-width: 90%;
+    }
+ 
+    @media (max-width: 340px) {
+       h1 {
+          font-size: 1.6em;
+       }
+    }
+ }
+ 
