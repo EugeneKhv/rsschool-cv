@@ -11,11 +11,15 @@
 ---
 ### About Me 
 
+I have been programming websites for the past 2 years. I love programming and looking forward to work with new clients.
 Experienced in:
-Creating, administering, filling sites, seo-optimization, maintaining contextual and banner compagnes in search engines. 
-Have expertise in analytical work like audit of site ergonomics and semantics, contextual advertising campaigns (monitoring, adjustment, performance evaluation), analysis of site traffic, analysis of the behavior of competitors and the external environment. Systems: Google Analytics, Yandex Metrica; 
-I’ve been doing this in my spare time for the last 8 years, as a side job. 
-I like to learn new things. I love programming and I want to get better in it.
+
+- Creating, administering, filling sites;
+- Seo-optimization, maintaining contextual and banner campaigns in search - engines;
+- Analytical work like audit of site`s ergonomics and semantics;
+- Contextual advertising campaigns (monitoring, adjustment, performance evaluation);
+- Analysis of site`s traffic, analysis of competitor`s behavior and external environments;
+- Systems: Google Analytics, Yandex Metrica;
 
 ---
 ### Skills 
