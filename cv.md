@@ -68,6 +68,7 @@ Freelanse - Website creation and administration, SEO-optimization
 - Google Ads certified specialist,
 - JavaScript https://learn.javascript.ru/,
 - Alexander Lushenko courses (JavaScript 2.0; function in JavaScript; Array methods in JavaScript; Object-oriented programming in JavaScript; PHP)
+- JS/FE Pre-School 2022
 
 ---
 ### Language:
