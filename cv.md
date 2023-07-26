@@ -40,33 +40,13 @@ Experienced in:
 - GoogleAnalitics
 
 ---
-### Code example:
-```
-function arrayDiff(a, b) {
- let arr = []
-  if (b.length != 0) {
-    arr = a.filter(function (item) {
-      for (let j = 0; j < b.length; j++) {
-        if (item == b[j] || item == b[j + 1]) {
-          return false;
-        } else {
-          return true;
-        }
-      }
-    });
-  } else {
-    return a;
-  }
-  return arr;
-  
-}
-```
----
 ### Work experience:
 
 Freelanse - Website creation and administration, SEO-optimization
 
 ---
+###Portfolio:
+
 
 ### Education and courses:
 - Google Ads certified specialist,
