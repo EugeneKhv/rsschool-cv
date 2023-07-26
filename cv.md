@@ -19,7 +19,7 @@ Experienced in:
 - Seo-optimization, maintaining contextual and banner campaigns in search - engines;
 - Analytical work like audit of site`s ergonomics and semantics;
 - Contextual advertising campaigns (monitoring, adjustment, performance evaluation);
-- Analysis of site`s traffic, analysis of competitor`s behavior and external environments;
+- Analysis of site's traffic, analysis of competitor's behavior and external environments;
 - Systems: Google Analytics, Yandex Metrica;
 
 ---
