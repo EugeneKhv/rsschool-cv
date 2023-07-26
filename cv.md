@@ -40,13 +40,12 @@ Experienced in:
 - GoogleAnalitics
 
 ---
-### Work experience:
 
-Freelanse - Website creation and administration, SEO-optimization
+### Work experience:
+2013-2014 "Sait-servis" Irkutsk Russia - web page builder;
+2015-2022 Self-employed - Website creation and administration, SEO-optimization
 
 ---
-###Portfolio:
-
 
 ### Education and courses:
 - Google Ads certified specialist,
@@ -56,4 +55,5 @@ Freelanse - Website creation and administration, SEO-optimization
 
 ---
 ### Language:
+Russian - native
 English level - A2
