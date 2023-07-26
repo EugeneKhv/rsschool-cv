@@ -1,10 +1,11 @@
-# Evgeniy Khvoynov #
+# Evgenii Khvoinov #
+### Junior frontend developer
 ---
 ### Contacts 
 
-**Location**: Irkutsk, Russia,
+**Location**: Astoria, NY,
 
-**Phone**: +79501491673, 
+**Phone**: 718-795-35-41, 
 
 **Email**: lifeman1979@gmail.com
 
@@ -24,16 +25,19 @@ Experienced in:
 ---
 ### Skills 
 
-- html, 
-- css, 
+- HTML, 
+- CSS, 
 - JavaScript(Basic),
+- PHP (Bacic)
 - MySQL
 - CMS Joomla, Drupal, WP, 
 - Bootstrap,
-- Ulkit,
 - Adobe Photoshop‚ 
 - CorelDraw,
-- Emmet
+- Figma,
+- CEO,
+- GoogleAds,
+- GoogleAnalitics
 
 ---
 ### Code example:
@@ -72,4 +76,4 @@ Freelanse - Website creation and administration, SEO-optimization
 
 ---
 ### Language:
-English level - A1
+English level - A2
