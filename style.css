@@ -1,0 +1,22 @@
+body{
+background-color: rgb(212, 207, 207);
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: rgb(17, 14, 14);
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.main{
+    display: flex;
+
+}
+.left__aside, .right__aside{
+    width: 60%;
+}
+.left__aside{
+    width: 40%;
+    background-color: #c46363;
+}
