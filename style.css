@@ -1,9 +1,14 @@
 body{
-background-color: rgb(212, 207, 207);
+background-color: #2274B1;
 margin: 0;
 padding: 0;
 box-sizing: border-box;
 color: rgb(17, 14, 14);
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    
 }
 .container{
     width: 80%;
@@ -11,12 +16,17 @@ color: rgb(17, 14, 14);
 }
 .main{
     display: flex;
+    justify-content: space-between;
+    background-color: #fff;
 
 }
 .left__aside, .right__aside{
-    width: 60%;
+    width: 50%;
 }
-.left__aside{
-    width: 40%;
-    background-color: #c46363;
+
+.header__photo{
+    width: 200px;
+    background-image: url(../img/kot.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
