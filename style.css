@@ -1,0 +1,32 @@
+body{
+background-color: #2274B1;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: rgb(17, 14, 14);
+}
+.header{
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+
+}
+.left__aside, .right__aside{
+    width: 50%;
+}
+
+.header__photo{
+    width: 200px;
+    background-image: url(../img/kot.jpeg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
